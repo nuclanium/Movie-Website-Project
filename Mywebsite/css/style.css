@@ -7,7 +7,7 @@ body {
   margin: 0;
   background-color: #f4f4f4;
 }
-/* Global Modifiers */
+/* ----------------------Global Modifiers-------------- */
 .container {
   width: 80%;
   margin:auto;
@@ -17,6 +17,7 @@ ul {
   margin:0;
   padding:0;
 }
+/* Search button */
 .button_1 {
   height: 38px;
   background: #e8491d;
@@ -25,8 +26,15 @@ ul {
   padding-right: 20px;
   color: #ffffff;
 }
-
-/* Header */
+/* Dark Background with White text */
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* -----------------------Header--------------------- */
 header {
   background: #35424a;
   color: #ffffff;
@@ -46,7 +54,7 @@ header li{
   display: inline;
   padding: 0 20px 0 20px;
 }
-/* Top Left buttons style */
+/* Top right buttons style */
 header #branding{
   float: left;
 }
@@ -115,6 +123,17 @@ header a:hover {
 
 #images .image img {
   width: 150px;
+}
+/* Sidebar About */
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+/* Main-col About */
+article#main-col {
+  float: left;
+  width: 65%;
 }
 
 footer {
