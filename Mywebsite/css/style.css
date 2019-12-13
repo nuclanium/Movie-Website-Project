@@ -7,7 +7,7 @@ body {
   margin: 0;
   background-color: #f4f4f4;
 }
-/* Global Modifiers */
+/* ----------------------Global Modifiers-------------- */
 .container {
   width: 80%;
   margin:auto;
@@ -17,6 +17,7 @@ ul {
   margin:0;
   padding:0;
 }
+/* Search button */
 .button_1 {
   height: 38px;
   background: #e8491d;
@@ -25,8 +26,15 @@ ul {
   padding-right: 20px;
   color: #ffffff;
 }
-
-/* Header */
+/* Dark Background with White text */
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* -----------------------Header--------------------- */
 header {
   background: #35424a;
   color: #ffffff;
@@ -46,7 +54,7 @@ header li{
   display: inline;
   padding: 0 20px 0 20px;
 }
-/* Top Left buttons style */
+/* Top right buttons style */
 header #branding{
   float: left;
 }
@@ -85,9 +93,10 @@ header a:hover {
 }
 /* Search Bar */
 #searchbar {
+  border-bottom: #e8491d 3px solid;
   padding: 15px;
   color: #ffffff;
-  background: #35424a
+  background: #35424a;
 }
 #searchbar h1 {
   float: left;
@@ -103,6 +112,22 @@ header a:hover {
 }
 
 /* Movie Preview images */
+#bestmovietext {
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 4px;
+  text-shadow: 3px 2px #e8491d;
+  font-weight: bold;
+  font-size: 40px;
+}
+#bestserietext {
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 4px;
+  text-shadow: 3px 2px #C85A17;
+  font-weight: bold;
+  font-size: 40px;
+}
 #images {
   margin-top: 20px;
 }
@@ -110,11 +135,26 @@ header a:hover {
   float: left;
   text-align: center;
   width: 30%;
-  padding: 10px;
+  padding: 15px;
+  border: 4px;
+  border-style: outset;
+  border-color: #2B1B17;
+  border-radius: 8px;
 }
 
 #images .image img {
   width: 150px;
+}
+/* Sidebar About */
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+/* Main-col About */
+article#main-col {
+  float: left;
+  width: 65%;
 }
 
 footer {
