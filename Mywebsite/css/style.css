@@ -133,6 +133,12 @@ header a:hover {
   color: #000000;
   font-weight: bold;
 }
+
+#images a:link {
+  color: #000000;
+  font-weight: bold;
+}
+
 #images a:hover {
   color: #e8491d;
   font-weight: bold;
