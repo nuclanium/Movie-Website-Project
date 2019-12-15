@@ -1,0 +1,167 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+/* ----------------------Global Modifiers-------------- */
+.container {
+  width: 80%;
+  margin:auto;
+  overflow:hidden;
+}
+ul {
+  margin:0;
+  padding:0;
+}
+/* Search button */
+.button_1 {
+  height: 38px;
+  background: #e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+/* Dark Background with White text */
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #e8491d;
+  font-weight: bold;
+}
+/* -----------------------Header--------------------- */
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+/* Top right buttons style */
+header #branding{
+  float: left;
+}
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+/* Home Button color */
+header .highlight, header .current a{
+  color: #e8491d;
+  font-weight: bold;
+}
+/* When you hover mouse on buttons style */
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/* Showcase */
+#showcase {
+  min-height: 400px;
+  background:url("../img/showcase.jpg")no-repeat 0 -400px;
+  text-align: center;
+  color: #ffffff;
+}
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+#showcase p {
+  font-size: 20px;
+}
+/* Search Bar */
+#searchbar {
+  padding: 15px;
+  color: #ffffff;
+  background: #35424a;
+}
+#searchbar h1 {
+  float: left;
+}
+#searchbar form {
+  float: right;
+  margin-top: 20px;
+}
+#searchbar input[type="searchbar"] {
+  padding: 4px;
+  height: 25px;
+  weight: 250px;
+}
+
+
+/* Movie Preview images */
+#bestmovietext {
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 4px;
+  text-shadow: 3px 2px #e8491d;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* Movie titles */
+#images a:visited {
+  color: #000000;
+  font-weight: bold;
+}
+#images a:hover {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+#images a {
+  text-decoration: none;
+}
+#images {
+  margin-top: 20px;
+}
+/* The Big Image */
+#images .image img {
+  float: left;
+  text-align: left;
+  border-style: outset;
+  border: 4px;
+  border-radius: 16px;
+}
+
+/* Release Date Text */
+#images .container h2 {
+  float: center;
+  text-align: center;
+}
+
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
+}

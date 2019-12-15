@@ -157,6 +157,9 @@ header a:hover {
 
 #images .image img {
   width: 190px;
+  border-style: outset;
+  border: 4px;
+  border-radius: 16px;
 }
 /* Sidebar About */
 aside#sidebar {
