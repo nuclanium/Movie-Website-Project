@@ -77,6 +77,7 @@ header a:hover {
 }
 
 /* Showcase */
+
 #showcase {
   min-height: 400px;
   background:url("../img/showcase.jpg")no-repeat 0 -400px;
@@ -178,7 +179,7 @@ article#main-col {
   float: left;
   width: 65%;
 }
-
+/* Footer */
 footer {
   padding: 20px;
   margin-top: 20px;
